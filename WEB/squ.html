@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>squares</title>
+</head>
+<body>
+<script type="text/javascript">
+var n=prompt("enter positive value for n:"," ");
+while(n<=0)
+{
+	alert("enter positive value");
+	n=prompt("enter positive value for n"," ");
+}
+document.write("number and their squares values displayed using alert <br/>");
+var msg="the squares(s) of \n";
+for(i=1;i<=n;i++)
+{
+	msg=msg+i+"is"+(i*i)+"/n"
+}
+alert(msg);
+</script>
+</body>
+</html>
